@@ -13,26 +13,26 @@ def resize_and_load_image(image_path, image_length=60, image_height=60):
 # to resize each images
 def resized_images():
     image_paths = [
-        'Images/0.png',         #0
-        'Images/00.png',        #1
-        'Images/1.png',         #2
-        'Images/2.png',         #3
-        'Images/3.png',         #4
-        'Images/4.png',         #5
-        'Images/5.png',         #6
-        'Images/6.png',         #7
-        'Images/7.png',         #8
-        'Images/8.png',         #9
-        'Images/9.png',         #10
-        'Images/clear.png',     #11
-        'Images/difference.png',#12
-        'Images/dot.png',       #13
-        'Images/equal.png',     #14
-        'Images/percent.png',   #15
-        'Images/product.png',   #16
-        'Images/quotient.png',  #17
-        'Images/remove.png',    #18
-        'Images/sum.png',       #19
+        'Images/clear.png',     #0
+        'Images/percent.png',   #1
+        'Images/remove.png',    #2
+        'Images/quotient.png',  #3
+        'Images/7.png',         #4
+        'Images/8.png',         #5
+        'Images/9.png',         #6
+        'Images/product.png',   #7
+        'Images/4.png',         #8
+        'Images/5.png',         #9
+        'Images/6.png',         #10
+        'Images/difference.png',#11
+        'Images/1.png',         #12
+        'Images/2.png',         #13
+        'Images/3.png',         #14
+        'Images/sum.png',       #15
+        'Images/00.png',        #16
+        'Images/0.png',         #17
+        'Images/dot.png',       #18
+        'Images/equal.png',     #19
     ]
     images = [resize_and_load_image(image_path) for image_path in image_paths]
     return images
