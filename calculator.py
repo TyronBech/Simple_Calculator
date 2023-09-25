@@ -1,6 +1,6 @@
 import tkinter as tk
 from Calculator_Images import resized_images
-
+# This function is used to create a button for the calculator
 def create_button(frame, image_index, command_type, b_row, b_column):
     button = tk.Button(
         frame,
